@@ -1,0 +1,12 @@
+/* start iPhone 13 Mini css values*/
+body.iphone13mini #jim-mobile { position:relative; top:0px; left:0px; width:421px; height:852px; margin:auto; }
+body.iphone13mini #jim-case { background-image: url("../../../../../images/mobile/ios/ios15/iphone13mini@2x.png"); height:852px; width:421px; background-size:100% auto; z-index:100; /*must be over keyboards and comment bubbles*/ position:absolute; pointer-events:none; }
+body.iphone13mini #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.iphone13mini #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.iphone13mini #jim-mobile.landscape { height:421px; width:852px }
+body.iphone13mini #jim-case.portrait { transform:rotate(0deg); transform-origin:auto; }
+body.iphone13mini #jim-case.landscape { top:-2px; left:3px; transform:rotate(-90deg); transform-origin:57% 25% 0; }
+body.iphone13mini #jim-container.portrait { position: absolute; top: 20px; left: 23.5px; width: 375px; height: 812px; }
+body.iphone13mini #jim-container.landscape { position: absolute; top: 23.5px; left: 20px; width: 812px; height: 375px; }
